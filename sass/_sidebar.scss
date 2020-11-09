@@ -3,3 +3,8 @@
   // grid-column: 9 / 10;
   grid-row: 1 / -1;
 }
+
+sidebar div {
+  position: sticky;
+  top: 0;
+}

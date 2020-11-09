@@ -44,11 +44,17 @@ body {
 .search {
   background-color: blueviolet;
   grid-row: 2 / 3;
-  grid-column: 1 / 4; }
+  grid-column: 1 / 4;
+  position: sticky;
+  top: 0; }
 
 .sidebar {
   background-color: blue;
   grid-row: 1 / -1; }
+
+sidebar div {
+  position: sticky;
+  top: 0; }
 
 .ticker {
   background-color: goldenrod;
