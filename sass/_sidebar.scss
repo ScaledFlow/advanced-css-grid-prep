@@ -1,10 +1,16 @@
 .sidebar {
   background-color: blue;
   // grid-column: 9 / 10;
-  grid-row: 1 / -1;
+  // grid-row: 1 / -1;
+  grid-row: sidebar-start / sidebar-end;
+
 }
 
 sidebar div {
   position: sticky;
   top: 0;
+
+  @media only screen and (max-width: 700px) {
+   display: none;
+  }
 }
